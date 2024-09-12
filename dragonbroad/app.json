@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/wifi/index",
+    "pages/wifi/pages/startWifi/startWifi",
+    "pages/wifi/pages/getWifiList/getWifiList",
+    "pages/wifi/pages/connectWifi/connectWifi",
+    "pages/wifi/pages/getCurrentWifi/getCurrentWifi",
+    "pages/wifi/pages/closeWifi/closeWifi",
+   
+   
+    "pages/bluetooth/index",
+    "pages/bluetooth/pages/openBt/openBt",
+    "pages/bluetooth/pages/getBtList/getBtList",
+    "pages/bluetooth/pages/closeBt/closeBt"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/wifi/index",
+        "iconPath": "images/wifi.png",
+        "selectedIconPath": "images/wifi.png",
+        "text": "WIFI"
+      },
+      {
+        "pagePath": "pages/bluetooth/index",
+        "iconPath": "images/bluetooth.png",
+        "selectedIconPath": "images/bluetooth.png",
+       "text": "Bluetooth"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
